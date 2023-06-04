@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <RootNamespace>ReadSharp.Ports.NReadability</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>nieltg</Authors>
+    <Company />
+    <Description>NReadability part for ReadSharp.Core library</Description>
+    <Copyright>2017</Copyright>
+    <PackageLicenseUrl>https://github.com/nieltg/ReadSharp.Core/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/nieltg/ReadSharp.Core</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nieltg/ReadSharp.Core</RepositoryUrl>
+    <Version>1.0.1</Version>
+    <PackageId>ReadSharp.Ports.NReadability.Core</PackageId>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\readability.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReadSharp.Ports.SgmlReader.Core\ReadSharp.Ports.SgmlReader.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmlParser", "EmlParser\EmlParser.csproj", "{8CE909BF-4C49-4B00-9B18-4071C21CC1DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmlParser", "EmlParser\EmlParser.csproj", "{8CE909BF-4C49-4B00-9B18-4071C21CC1DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadSharp.Core", "ReadSharp.Core\ReadSharp.Core.csproj", "{FDC6E1BC-4A12-41D0-8577-E213D037F805}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadSharp.Ports.NReadability.Core", "ReadSharp.Ports.NReadability.Core\ReadSharp.Ports.NReadability.Core.csproj", "{55963C31-5920-40A8-89E9-ADC3B46F8CE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadSharp.Ports.SgmlReader.Core", "ReadSharp.Ports.SgmlReader.Core\ReadSharp.Ports.SgmlReader.Core.csproj", "{D159E145-C6A5-4E43-973E-6A68AC65C231}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReadSharp.Core.Tests", "ReadSharp.Core.Tests\ReadSharp.Core.Tests.csproj", "{7F32AAD4-E956-4CB3-A0BE-4B51C89E0762}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{8CE909BF-4C49-4B00-9B18-4071C21CC1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CE909BF-4C49-4B00-9B18-4071C21CC1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CE909BF-4C49-4B00-9B18-4071C21CC1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC6E1BC-4A12-41D0-8577-E213D037F805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC6E1BC-4A12-41D0-8577-E213D037F805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC6E1BC-4A12-41D0-8577-E213D037F805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC6E1BC-4A12-41D0-8577-E213D037F805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55963C31-5920-40A8-89E9-ADC3B46F8CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55963C31-5920-40A8-89E9-ADC3B46F8CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55963C31-5920-40A8-89E9-ADC3B46F8CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55963C31-5920-40A8-89E9-ADC3B46F8CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D159E145-C6A5-4E43-973E-6A68AC65C231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D159E145-C6A5-4E43-973E-6A68AC65C231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D159E145-C6A5-4E43-973E-6A68AC65C231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D159E145-C6A5-4E43-973E-6A68AC65C231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F32AAD4-E956-4CB3-A0BE-4B51C89E0762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F32AAD4-E956-4CB3-A0BE-4B51C89E0762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F32AAD4-E956-4CB3-A0BE-4B51C89E0762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F32AAD4-E956-4CB3-A0BE-4B51C89E0762}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
